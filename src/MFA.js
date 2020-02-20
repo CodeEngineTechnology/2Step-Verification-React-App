@@ -44,7 +44,10 @@ class MFA extends Component {
       message: "Your code is : " + this.state.RegistrationCode,
       subject: "Test"
     };
-
+	//For Production :
+	//1- use environment variables (.env) to keep the API Endpoint URL secret.
+	//2-Generate API key and Usage plan for your AWS API Gateway
+	
     event.preventDefault();
     await fetch(`YOUR_API_GATEWAY_STAGE_URL`, {
       method: "POST",
