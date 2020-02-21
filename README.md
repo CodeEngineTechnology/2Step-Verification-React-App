@@ -89,12 +89,12 @@ AWS account<br/><br/>
         ]
     }
 
-## AWS CloudFront (CDN / HTPS)
+## AWS CloudFront (CDN / HTPS) & WAF
 
 ### Fast, highly secure and programmable content delivery network (CDN)
 
 ### AWS CloudFront integrates seamlessly with AWS defend for Layer 3/4 DDoS mitigation and AWS WAF for Layer seven protection. <br><br>
 
-## KMS
+## KMS 
 
-### In order to take this app to the next level you can encrypt the code using KMS and store the encrypted code along with the user's phone number in Redis as a key,value pair.
+### In order to take this app to the next level you can encrypt the code using KMS and store the encrypted code along with the user's phone number in Redis as a key,value pair. You can also 
