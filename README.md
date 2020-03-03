@@ -7,9 +7,7 @@ AWS account<br/><br/>
 
 ## React App
 
-### `npm -i create-react-app`
-
-### `create-react-app mfa`
+### `npm init react-app mfa`
 
 ### `cd mfa`
 
